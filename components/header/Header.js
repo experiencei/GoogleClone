@@ -1,4 +1,4 @@
-import { XIcon } from "@heroicons/react/solid";
+import { MicrophoneIcon, XIcon } from "@heroicons/react/solid";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useRef } from "react";
@@ -22,8 +22,12 @@ function Header() {
                     ref={searchInputRef}
                     type="text"
                 />
-                <XIcon className="h-7 sm:mr-3 text-gray-500 cursor-pointer transition duration-100 transform hover:scale-125"
+                <XIcon 
+                className="h-7 sm:mr-3 text-gray-500 cursor-pointer transition duration-100 transform hover:scale-125"
                     onClick={() => (searchInputRef.current.value = "")}
+                />
+                <MicrophoneIcon
+                    className="h-6 mr-3 hidden sm:inline-flex text-blue-500 border-l-2 pl-4 border-gray-300"
                 />
             </form>
         </header>
