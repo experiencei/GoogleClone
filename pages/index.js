@@ -36,13 +36,13 @@ export default function Home() {
          height={100}
        />
 
-       <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg">
+       <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md">
            <SearchIcon
              className="h-5 mr-3 text-gray-500 "
            />
            <input
              type="text"
-             className="focus:outline-none"
+             className="flex-grow focus:outline-none"
            />
            <MicrophoneIcon className="h-5"/>
        </div>
