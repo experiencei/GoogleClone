@@ -36,7 +36,7 @@ export default function Home() {
          height={100}
        />
 
-       <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md">
+       <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md rounded-full border border-gray-200">
            <SearchIcon
              className="h-5 mr-3 text-gray-500 "
            />
