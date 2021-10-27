@@ -1,3 +1,4 @@
+import { XIcon } from "@heroicons/react/solid";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useRef } from "react";
@@ -21,6 +22,7 @@ function Header() {
                     ref={searchInputRef}
                     type="text"
                 />
+                <XIcon className="h-7 text-gray-500 cursor-pointer"/>
             </form>
         </header>
     )
