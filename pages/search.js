@@ -1,5 +1,7 @@
 import Head from 'next/head';
+import Header from '../components/header/Header';
 
+ 
 function Search() {
     return (
         <Head>
