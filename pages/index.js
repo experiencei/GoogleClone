@@ -19,11 +19,15 @@ export default function Home() {
            <p className="link">Gmail</p>
            <p className="link">Images</p>
          </div>
+
+
+
+         <Avatar url="https://coaching.papareact.com/ai9"/>
      </header>
       
 
 
-       <Avatar url="https://coaching.papareact.com/ai9"/>
+       
     </div>
   )
 }
