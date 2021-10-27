@@ -28,7 +28,7 @@ export default function Home() {
          
      </header>
       
-     <form>
+     <form className="flex flex-col items-center mt-44 flex-grow">
 
        <Image
          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
