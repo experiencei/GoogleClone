@@ -2,10 +2,10 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Header from '../components/header/Header';
 import SearchResults from '../components/searchResults/SearchResults';
-import { API_KEY , CONTEXT_KEY} from '../keys';
+
 import Response from '../Response';
-// const API_KEY = process.env.API_KEY;
-// const CONTEXT_KEY = process.env.CONTEXT_KEY;
+const API_KEY = process.env.API_KEY;
+const CONTEXT_KEY = process.env.CONTEXT_KEY;
  
 function Search({ results}) {
    const router = useRouter()
