@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Avatar from '../components/avatar/Avatar'
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
       
 
 
-       <Avatar/>
+       <Avatar url="https://coaching.papareact.com/ai9"/>
     </div>
   )
 }
