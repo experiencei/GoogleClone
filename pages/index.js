@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
      <header>
-         <div>
+         <div className="flex space-x-4">
            <p>About</p>
            <p>Store</p>
          </div>
