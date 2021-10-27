@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { useRouter } from "next/router";
 import { useRef } from "react";
 import Avatar from "../avatar/Avatar";
+import HeaderOptions from "../headerOptions/HeaderOptions";
 
 function Header() {
     const router = useRouter();
@@ -51,6 +52,8 @@ function Header() {
             <Avatar className="ml-auto" url="https://coaching.papareact.com/ai9"/>
         </div>
             
+
+            <HeaderOptions/>
         </header>
     )
 }

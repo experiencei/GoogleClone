@@ -3,13 +3,15 @@ import Header from '../components/header/Header';
 
  
 function Search() {
-    return (
+    return (<div>
         <Head>
             <title>Search Results</title>
             <link rel="icon" href="/favicon.ico" />
-
-            <Header/>
         </Head>
+
+        <Header/>
+
+        </div>
     )
 }
 
