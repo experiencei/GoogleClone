@@ -2,6 +2,7 @@ import { MicrophoneIcon, SearchIcon, XIcon } from "@heroicons/react/solid";
 import Image from 'next/image';
 import { useRouter } from "next/router";
 import { useRef } from "react";
+import Avatar from "../avatar/Avatar";
 
 function Header() {
     const router = useRouter();
@@ -46,6 +47,8 @@ function Header() {
                 />
                 <button hidden type="submit" onClick={search}>Search</button>
             </form>
+
+            <Avatar className url="https://coaching.papareact.com/ai9"/>
         </div>
             
         </header>
