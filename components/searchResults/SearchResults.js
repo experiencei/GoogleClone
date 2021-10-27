@@ -5,6 +5,16 @@ function SearchResults({ results}) {
              <p className="text-gray-600 text-md mb-5 mt-3">About {results.searchInformation?.formattedTotalResults} results
                  ({results.searchInformation?.formattedSearchTime} seconds)
              </p>
+
+
+             { results.items?.map(( result) => (<div key={result.link} className="max-xl mb-8 ">
+                        <div>
+
+                        </div>
+
+                        <p>{result.snippet}</p>
+
+             </div>))}
         </div>
     
 }
