@@ -48,7 +48,7 @@ function Header() {
                 <button hidden type="submit" onClick={search}>Search</button>
             </form>
 
-            <Avatar className url="https://coaching.papareact.com/ai9"/>
+            <Avatar className="ml-auto" url="https://coaching.papareact.com/ai9"/>
         </div>
             
         </header>
