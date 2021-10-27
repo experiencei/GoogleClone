@@ -1,5 +1,7 @@
-import Head from 'next/head'
-import Avatar from '../components/avatar/Avatar'
+import Head from 'next/head';
+import Image from 'next/image';
+import Avatar from '../components/avatar/Avatar';
+
 import { ViewGridIcon , MicrophoneIcon } from "@heroicons/react/solid"
 export default function Home() {
   return (
@@ -18,13 +20,21 @@ export default function Home() {
          <div className="flex space-x-4 items-center">
            <p className="link">Gmail</p>
            <p className="link">Images</p>
+
             <ViewGridIcon  className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer"/>
            <Avatar url="https://coaching.papareact.com/ai9"/>
          </div>
          
      </header>
       
+     <form>
 
+       <Image
+         src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+         width={300}
+         height={100}
+       />
+     </form>
 
        
     </div>
