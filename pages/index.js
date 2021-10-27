@@ -2,7 +2,8 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Avatar from '../components/avatar/Avatar';
 
-import { ViewGridIcon , MicrophoneIcon } from "@heroicons/react/solid"
+import { ViewGridIcon , MicrophoneIcon, SearchIcon } from "@heroicons/react/solid";
+import {  SearchIcon } from "@heroicons/react/outline";
 export default function Home() {
   return (
     <div >
@@ -34,6 +35,12 @@ export default function Home() {
          width={300}
          height={100}
        />
+
+       <div>
+           <SearchIcon
+             className=""
+           />
+       </div>
      </form>
 
        
