@@ -22,7 +22,7 @@ function Header() {
                     ref={searchInputRef}
                     type="text"
                 />
-                <XIcon className="h-7 text-gray-500 cursor-pointer"/>
+                <XIcon className="h-7 text-gray-500 cursor-pointer transition duration-100 transform hover:scale-125"/>
             </form>
         </header>
     )
