@@ -46,6 +46,13 @@ export default function Home() {
            />
            <MicrophoneIcon className="h-5"/>
        </div>
+
+       <div>
+         <button className="btn">Google Search</button>
+
+         <button className="btn">I'm Feeling Lucky</button>
+       </div>
+
      </form>
 
        
